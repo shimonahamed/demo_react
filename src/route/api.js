@@ -9,7 +9,7 @@ router.post('/categori', CategoryController.createCategory);
 router.get('/categories', CategoryController.getAllCategories);
 
 // Get category by ID
-router.get('/categories/:id', CategoryController.getCategoryById);
+router.delete('/categories/:id', CategoryController.getCategoryById);
 
 // Update category by ID
 router.put('/categories/:id', CategoryController.updateCategory);
